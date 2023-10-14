@@ -25,7 +25,8 @@
 
 .nav-items {
     display: flex;
-    gap: calc(20px + 8vw);
+    gap: calc(25px + 5vw);
+    list-style: none;
 
 }
 
@@ -45,9 +46,6 @@
     color: white;
 }
 
-.nav-group a {
-    margin-right: 10px;
-}
 
 .main {
     border: 2px solid red;
