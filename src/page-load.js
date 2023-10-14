@@ -9,6 +9,9 @@ export default function loadPage() {
     a1.textContent = "Main";
     a2.textContent = "Menu";
     a3.textContent = "About";
+    a1.href = "main";
+    a2.href = "menu";
+    a3.href = "about";
 
     const li1 = document.createElement("li");
     li1.classList.add("nav-items");
