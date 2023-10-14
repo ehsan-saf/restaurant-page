@@ -62,10 +62,10 @@
     height: 40%;
 }
 
-.main-title>p {
+.main-title p {
     background-color: rgba(249, 249, 249, 0.5);
     padding: 50px;
-    font-size: 1.6rem;
+    font-size: calc(1rem + 1vw);
 }
 
 
