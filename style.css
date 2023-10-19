@@ -76,7 +76,7 @@
 .menu-row {
     background-color: #F4FAFF;
     display: grid;
-    grid-template-columns: repeat(2, minmax(250px, 500px));
+    grid-template-columns: repeat(2, minmax(50px, 500px));
     justify-content: space-evenly;
     padding: 15px;
     gap: 5vw;
