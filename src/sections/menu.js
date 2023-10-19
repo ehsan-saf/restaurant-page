@@ -1,6 +1,7 @@
 export default function loadMenu() {
 
     const img1 = document.createElement("img");
+    img1.classList.add("food-pic");
     img1.src = "./images/pizza.jpg";
 
     const name1 = document.createElement("p");
@@ -15,6 +16,7 @@ export default function loadMenu() {
     // -------------------------------------------------
 
     const img2 = document.createElement("img");
+    img2.classList.add("food-pic");
     img2.src = "./images/burger.jpg";
 
     const name2 = document.createElement("p");
