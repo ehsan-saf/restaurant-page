@@ -7,13 +7,13 @@
 #content {
     height: 99vh;
     display: grid;
-    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 5fr;
 }
 
 
 .header {
     border: 2px solid red;
-    background-color: antiquewhite;
+    background-color: #231651;
 }
 
 .nav {
@@ -33,7 +33,7 @@
 .nav-items a {
     list-style: none;
     text-decoration: none;
-    color: black;
+    color: white;
     border: 2px solid gainsboro;
     border-radius: 10px;
     padding: 10px 20px;
@@ -43,8 +43,8 @@
 }
 
 .nav-items a:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black
 }
 
 
@@ -70,3 +70,27 @@
 
 
 .footer {}
+
+/* ------------ Food Menu Style ---------- */
+
+.menu-row {
+    background-color: #F4FAFF;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 500px));
+    justify-content: space-evenly;
+    padding: 15px;
+    gap: 5vw;
+}
+
+.food-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.4rem;
+}
+
+.food-pic {
+    border-radius: 20px;
+    width: 100%;
+}

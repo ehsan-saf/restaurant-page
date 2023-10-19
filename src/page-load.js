@@ -1,6 +1,5 @@
 export default function loadPage() {
     const content = document.getElementById("content");
-    console.log(content);
 
     // ------------- Header -------------
     const a1 = document.createElement("a");
@@ -9,9 +8,9 @@ export default function loadPage() {
     a1.textContent = "Main";
     a2.textContent = "Menu";
     a3.textContent = "About";
-    a1.href = "main";
-    a2.href = "menu";
-    a3.href = "about";
+    a1.dataset.name = "main";
+    a2.dataset.name = "menu";
+    a3.dataset.name = "about";
 
     const li1 = document.createElement("li");
     li1.classList.add("nav-items");
@@ -29,6 +28,7 @@ export default function loadPage() {
     nav.appendChild(navList);
 
     const header = document.createElement("div");
+    header.classList.add("header");
     header.appendChild(nav);
     // ---------------------------------------
 
@@ -37,7 +37,7 @@ export default function loadPage() {
     text_main.textContent = "If you've found us," +
     "it means you don't have to look anywhere else"
 
-    const mainTitle = document.createElement("main-title");
+    const mainTitle = document.createElement("div");
     mainTitle.classList.add("main-title");
     mainTitle.appendChild(text_main);
 
