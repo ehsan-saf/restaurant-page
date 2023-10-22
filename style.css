@@ -12,7 +12,6 @@
 
 
 .header {
-    border: 2px solid red;
     background-color: #231651;
 }
 
@@ -49,7 +48,6 @@
 
 
 .main {
-    border: 2px solid red;
     background: url(./images/food.jpg);
     background-size: cover;
     background-position: center;
@@ -92,5 +90,34 @@
 
 .food-pic {
     border-radius: 20px;
+    width: 100%;
+}
+
+/* ---------- Contact page ----------- */
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 400px));
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.contact {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    padding: 20px;
+}
+
+
+.address {
+    display: grid;
+    grid-template-rows: 100px 200px;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+
+.map {
     width: 100%;
 }
